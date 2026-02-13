@@ -1133,9 +1133,76 @@ footer {
 }
 
 /* Responsive Design Updates */
+@media (max-width: 992px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .timeline::before {
+        left: 30px;
+    }
+    
+    .timeline-dot {
+        left: 30px;
+    }
+    
+    .timeline-content {
+        width: calc(100% - 80px);
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    
+    .timeline-item {
+        margin-right: 60px;
+    }
+}
+
 @media (max-width: 768px) {
+    .hero-section {
+        min-height: auto;
+        padding: 6rem 0 3rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .hero-animation {
+        height: 300px;
+        margin-top: 3rem;
+    }
+    
+    .float-element {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+    
+    .btn-lg {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .display-3 {
+        font-size: 2.5rem !important;
+    }
+    
+    .display-4 {
+        font-size: 2rem !important;
+    }
+    
+    section {
+        padding: 3rem 0;
+    }
+    
     .quick-link-card {
         padding: 2rem 1.5rem;
+        margin-bottom: 1.5rem;
     }
     
     .ai-definition-card {
@@ -1163,9 +1230,93 @@ footer {
         text-align: center;
         gap: 0.5rem;
     }
+    
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .navbar-nav {
+        text-align: center;
+        padding: 1rem 0;
+    }
+    
+    .nav-link {
+        margin: 0.25rem 0;
+        padding: 0.5rem 1rem;
+    }
+    
+    .timeline-item {
+        margin-right: 60px;
+    }
+    
+    .timeline-content {
+        padding: 1.5rem;
+    }
+    
+    .tool-card,
+    .development-card,
+    .importance-card,
+    .feature-card {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .contact-form {
+        padding: 2rem 1.5rem;
+    }
 }
 
 @media (max-width: 576px) {
+    .hero-section {
+        padding: 5rem 0 2rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .hero-animation {
+        height: 250px;
+        margin-top: 2rem;
+    }
+    
+    .float-element {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+    
+    .display-3 {
+        font-size: 2rem !important;
+    }
+    
+    .display-4 {
+        font-size: 1.75rem !important;
+    }
+    
+    .btn-lg {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+        display: block;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .d-flex.gap-3 {
+        flex-direction: column;
+        gap: 0.5rem !important;
+    }
+    
+    section {
+        padding: 2rem 0;
+    }
+    
     .quick-link-card,
     .ai-definition-card,
     .future-card,
@@ -1188,6 +1339,190 @@ footer {
         width: 50px;
         height: 50px;
         font-size: 1.5rem;
+    }
+    
+    .tool-icon,
+    .dev-icon,
+    .importance-icon,
+    .challenge-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+    
+    .timeline::before {
+        left: 20px;
+    }
+    
+    .timeline-dot {
+        left: 20px;
+        width: 15px;
+        height: 15px;
+    }
+    
+    .timeline-item {
+        margin-right: 50px;
+        margin: 2rem 0;
+    }
+    
+    .timeline-content {
+        width: calc(100% - 60px);
+        padding: 1rem;
+    }
+    
+    .timeline-content h4 {
+        font-size: 1.1rem;
+    }
+    
+    .timeline-content p {
+        font-size: 0.9rem;
+    }
+    
+    .stat-item h2 {
+        font-size: 2rem;
+    }
+    
+    .contact-form {
+        padding: 1.5rem 1rem;
+    }
+    
+    .contact-form .form-control {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    .navbar {
+        padding: 0.75rem 0;
+    }
+    
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+    
+    .navbar-brand i {
+        font-size: 1.5rem;
+    }
+    
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .row.g-4 > * {
+        margin-bottom: 1.5rem;
+    }
+    
+    .social-links {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    
+    footer .row {
+        text-align: center;
+    }
+    
+    footer .col-md-6 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+    
+    .display-3 {
+        font-size: 1.75rem !important;
+    }
+    
+    .display-4 {
+        font-size: 1.5rem !important;
+    }
+    
+    .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+    }
+    
+    .lead {
+        font-size: 0.9rem !important;
+    }
+    
+    .float-element {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    .hero-animation {
+        height: 200px;
+    }
+}
+
+/* Performance Optimizations */
+.hero-animation {
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+
+.float-element {
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
+
+.tool-card,
+.quick-link-card,
+.feature-card {
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+/* Mobile Navigation Improvements */
+.navbar-toggler {
+    border: 2px solid var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.25);
+    border-color: var(--primary-color);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%236366f1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 24px;
+    height: 24px;
+}
+
+.navbar-collapse {
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        background: rgba(15, 23, 42, 0.98);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 1rem;
+        margin-top: 1rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .nav-link {
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+    
+    .nav-link:hover {
+        background: rgba(99, 102, 241, 0.1);
+        transform: translateX(-5px);
+    }
+    
+    .nav-link::after {
+        display: none;
     }
 }
 
