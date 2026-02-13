@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الذكاء الاصطناعي - تاريخ، تطور، وأهمية</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-cpu"></i>
+                عالم الذكاء الاصطناعي
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">الأدوات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="ai-content.html">الذكاء الاصطناعي</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">تواصل</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-12">
+                    <div class="hero-content text-center" data-aos="fade-up">
+                        <h1 class="display-3 fw-bold mb-4">
+                            <span class="gradient-text">الذكاء الاصطناعي</span>
+                        </h1>
+                        <p class="lead mb-4">
+                            رحلة من الخيال العلمي إلى الواقع - تاريخ، تطور، وتأثير على مستقبل البشرية
+                        </p>
+                        <div class="d-flex gap-3 justify-content-center flex-wrap">
+                            <a href="#history" class="btn btn-primary btn-lg">
+                                <i class="bi bi-clock-history"></i> التاريخ
+                            </a>
+                            <a href="#development" class="btn btn-outline-light btn-lg">
+                                <i class="bi bi-graph-up"></i> التطور
+                            </a>
+                            <a href="#importance" class="btn btn-outline-light btn-lg">
+                                <i class="bi bi-star"></i> الأهمية
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is AI Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-3">ما هو الذكاء الاصطناعي؟</h2>
+                <p class="lead text-muted">فهم المفهوم الأساسي للذكاء الاصطناعي</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up">
+                    <div class="ai-definition-card">
+                        <div class="ai-icon">
+                            <i class="bi bi-brain"></i>
+                        </div>
+                        <h3>التعريف</h3>
+                        <p>
+                            الذكاء الاصطناعي هو فرع من علوم الكمبيوتر يهدف إلى إنشاء آلات قادرة على محاكاة السلوك الذكي البشري.
+                            يشمل ذلك القدرة على التعلم، حل المشكلات، فهم اللغة، والتعرف على الأنماط.
+                        </p>
+                        
+                        <h4>أنواع الذكاء الاصطناعي:</h4>
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="ai-type">
+                                    <h5><i class="bi bi-circle"></i> الذكاء الاصطناعي الضيق</h5>
+                                    <p>مصمم لأداء مهمة محددة مثل تشخيص الأمراض أو لعب الشطرنج</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="ai-type">
+                                    <h5><i class="bi bi-circle"></i> الذكاء الاصطناعي العام</h5>
+                                    <p>قدرة على فهم وتعلم أي مهمة فكرية يمكن للإنسان أداؤها</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="history" class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-3">تاريخ الذكاء الاصطناعي</h2>
+                <p class="lead text-muted">رحلة الذكاء الاصطناعي من الخيال العلمي إلى الواقع</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>1950-1956</h5>
+                        <h4>البدايات</h4>
+                        <p>
+                            <strong>آلان تورينج</strong> يطرح "اختبار تورينج" لقياس ذكاء الآلات.<br>
+                            <strong>1956:</strong> <strong>جون مكارثي</strong> يصطلح مصطلح "الذكاء الاصطناعي" في مؤتمر دارتموث.
+                        </p>
+                        <div class="timeline-achievements">
+                            <span class="badge bg-primary">اختبار تورينج</span>
+                            <span class="badge bg-info">مؤتمر دارتموث</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>1960-1980</h5>
+                        <h4>العصر الذهبي</h4>
+                        <p>
+                            تطورات في الأنظمة الخبيرة والبرمجة المنطقية.<br>
+                            تأسيس معامل الأبحاث الأولى في MIT وستانفورد.<br>
+                            ظهور أول روبوت ذكي (Shakey).
+                        </p>
+                        <div class="timeline-achievements">
+                            <span class="badge bg-success">أنظمة خبيرة</span>
+                            <span class="badge bg-warning">روبوت Shakey</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>1980-2000</h5>
+                        <h4>فترة الشتاء والعودة</h4>
+                        <p>
+                            تباطؤ التطور بسبب القيود الحاسوبية والتمويل.<br>
+                            عودة مع الشبكات العصبية والتعلم الآلي.<br>
+                            ظهور خوارزميات التعلم المعزز.
+                        </p>
+                        <div class="timeline-achievements">
+                            <span class="badge bg-danger">فترة الشتاء</span>
+                            <span class="badge bg-primary">الشبكات العصبية</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>2000-2015</h5>
+                        <h4>الثورة العميقة</h4>
+                        <p>
+                            ظهور التعلم العميق والشبكات العصبية العميقة.<br>
+                            <strong>2011:</strong> Watson يفوز في jeopardy.<br>
+                            <strong>2012:</strong> AlexNet يحقق ثورة في التعرف على الصور.
+                        </p>
+                        <div class="timeline-achievements">
+                            <span class="badge bg-success">Watson</span>
+                            <span class="badge bg-info">AlexNet</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h5>2015-الآن</h5>
+                        <h4>العصر الحديث</h4>
+                        <p>
+                            <strong>2016:</strong> AlphaGo يهزم بطل العالم في لعبة Go.<br>
+                            <strong>2017:</strong> Transformers يغير معالجة اللغات.<br>
+                            <strong>2020-الآن:</strong> نماذج اللغات الكبيرة والذكاء الاصطناعي التوليدي.
+                        </p>
+                        <div class="timeline-achievements">
+                            <span class="badge bg-warning">AlphaGo</span>
+                            <span class="badge bg-success">GPT Models</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Section -->
+    <section id="development" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-3">تطور التقنيات</h2>
+                <p class="lead text-muted">من الخوارزميات البسيطة إلى الأنظمة المعقدة</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="development-card">
+                        <div class="dev-icon">
+                            <i class="bi bi-diagram-3"></i>
+                        </div>
+                        <h4>الشبكات العصبية</h4>
+                        <p>محاكاة عمل الدماغ البشري باستخدام طبقات متصلة من الخلايا العصبية الاصطناعية</p>
+                        <div class="dev-details">
+                            <h6>التطورات الرئيسية:</h6>
+                            <ul>
+                                <li>الشبكات العصبية الاصطناعية (ANN)</li>
+                                <li>الشبكات العصبية التلافيفية (CNN)</li>
+                                <li>الشبكات العصبية المتكررة (RNN)</li>
+                                <li>الشبكات العصبية العميقة (DNN)</li>
+                            </ul>
+                        </div>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" style="width: 95%">95%</div>
+                        </div>
+                        <small class="text-muted">مستوى التطور الحالي</small>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="development-card">
+                        <div class="dev-icon">
+                            <i class="bi bi-layers"></i>
+                        </div>
+                        <h4>التعلم العميق</h4>
+                        <p>استخدام شبكات عصبية متعددة الطبقات لحل مشاكل معقدة بشكل تلقائي</p>
+                        <div class="dev-details">
+                            <h6>التطبيقات:</h6>
+                            <ul>
+                                <li>التعرف على الصور والفيديو</li>
+                                <li>معالجة اللغات الطبيعية</li>
+                                <li>قيادة السيارات ذاتية</li>
+                                <li>التشخيص الطبي</li>
+                            </ul>
+                        </div>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" style="width: 90%">90%</div>
+                        </div>
+                        <small class="text-muted">مستوى التطور الحالي</small>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="development-card">
+                        <div class="dev-icon">
+                            <i class="bi bi-translate"></i>
+                        </div>
+                        <h4>معالجة اللغات الطبيعية</h4>
+                        <p>فهم وتحليل وإنشاء اللغة البشرية بشكل طبيعي وذكي</p>
+                        <div class="dev-details">
+                            <h6>التطورات:</h6>
+                            <ul>
+                                <li>نماذج Transformers</li>
+                                <li>نماذج اللغات الكبيرة (LLM)</li>
+                                <li>النماذج التوليدية</li>
+                                <li>فهم السياق المتعدد</li>
+                            </ul>
+                        </div>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" style="width: 85%">85%</div>
+                        </div>
+                        <small class="text-muted">مستوى التطور الحالي</small>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="development-card">
+                        <div class="dev-icon">
+                            <i class="bi bi-eye-scan"></i>
+                        </div>
+                        <h4>رؤية الحاسوب</h4>
+                        <p>قدرة الآلات على رؤية وتفسير وفهم الصور والفيديوهات</p>
+                        <div class="dev-details">
+                            <h6>التطبيقات:</h6>
+                            <ul>
+                                <li>كشف الأشياء والوجوه</li>
+                                <li>التعرف على الإشارات</li>
+                                <li>تحليل الصور الطبية</li>
+                                <li>الواقع المعزز والافتراضي</li>
+                            </ul>
+                        </div>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" style="width: 88%">88%</div>
+                        </div>
+                        <small class="text-muted">مستوى التطور الحالي</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Importance Section -->
+    <section id="importance" class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-3">أهمية الذكاء الاصطناعي</h2>
+                <p class="lead text-muted">كيف يغير الذكاء الاصطناعي عالمنا ومستقبل البشرية</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="importance-card text-center">
+                        <div class="importance-icon">
+                            <i class="bi bi-hospital"></i>
+                        </div>
+                        <h4>الطب</h4>
+                        <p>تشخيص الأمراض بدقة، اكتشاف الأدوية الجديدة، وتحسين الرعاية الصحية</p>
+                        <div class="importance-stats">
+                            <span class="stat-number">97%</span>
+                            <span class="stat-label">دقة في تشخيص السرطان</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="importance-card text-center">
+                        <div class="importance-icon">
+                            <i class="bi bi-bank"></i>
+                        </div>
+                        <h4>الاقتصاد</h4>
+                        <p>تحسين القرارات المالية، اكتشاف الاحتيال، وأتمتة العمليات</p>
+                        <div class="importance-stats">
+                            <span class="stat-number">$15.7T</span>
+                            <span class="stat-label">مساهمة في الاقتصاد العالمي</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="importance-card text-center">
+                        <div class="importance-icon">
+                            <i class="bi bi-mortarboard"></i>
+                        </div>
+                        <h4>التعليم</h4>
+                        <p>تعلم شخصي، تقييم ذكي، وتوفير محتوى تعليمي متكيف</p>
+                        <div class="importance-stats">
+                            <span class="stat-number">85%</span>
+                            <span class="stat-label">تحسين في الإنتاجية</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="importance-card text-center">
+                        <div class="importance-icon">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <h4>البيئة</h4>
+                        <p>مراقبة التغير المناخي، تحسين كفاءة الطاقة، وحماية البيئة</p>
+                        <div class="importance-stats">
+                            <span class="stat-number">30%</span>
+                            <span class="stat-label">توفير في استهلاك الطاقة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Impact Details -->
+            <div class="row mt-5">
+                <div class="col-lg-12" data-aos="fade-up">
+                    <div class="impact-container">
+                        <h3 class="text-center mb-4">التأثير على المجتمع</h3>
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="impact-item">
+                                    <div class="impact-icon">
+                                        <i class="bi bi-briefcase"></i>
+                                    </div>
+                                    <h5>سوق العمل</h5>
+                                    <p>خلق وظائف جديدة، أتمتة المهام المتكررة، وتطوير المهارات</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="impact-item">
+                                    <div class="impact-icon">
+                                        <i class="bi bi-shield-check"></i>
+                                    </div>
+                                    <h5>الأمن</h5>
+                                    <p>حماية البيانات، كشف التهديدات، وتعزيز الأمن السيبراني</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="impact-item">
+                                    <div class="impact-icon">
+                                        <i class="bi bi-rocket-takeoff"></i>
+                                    </div>
+                                    <h5>الابتكار</h5>
+                                    <p>تسريع البحث العلمي، تطوير منتجات جديدة، وحل المشكلات المعقدة</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-3">مستقبل الذكاء الاصطناعي</h2>
+                <p class="lead text-muted">ماذا ينتظرنا في العقد القادم؟</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="future-card">
+                        <div class="future-year">2025-2030</div>
+                        <h4>الذكاء الاصطناعي المتقدم</h4>
+                        <ul>
+                            <li>نماذج لغوية أكثر تقدماً</li>
+                            <li>روبوتات ذكية في المنازل</li>
+                            <li>سيارات ذاتية القيادة شائعة</li>
+                            <li>طب شخصي متقدم</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="future-card">
+                        <div class="future-year">2030-2040</div>
+                        <h4>الذكاء الاصطناعي العام</h4>
+                        <ul>
+                            <li>أنظمة تفهم وتتعلم مثل البشر</li>
+                            <li>تعاون إنسان-آلة متقدم</li>
+                            <li>حل مشاكل عالمية كبرى</li>
+                            <li>ثورة في البحث العلمي</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="future-card">
+                        <div class="future-year">2040+</div>
+                        <h4>العصر ما بعد البشري</h4>
+                        <ul>
+                            <li>اندماج الإنسان بالآلة</li>
+                            <li>ذكاء فائق التطور</li>
+                            <li>استكشاف الفضاء بالذكاء الاصطناعي</li>
+                            <li>حل ألغاز الوجود</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Challenges Section -->
+    <section class="py-5 bg-dark">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-4 fw-bold mb-3">التحديات والمخاطر</h2>
+                <p class="lead text-muted">التحديات التي تواجه تطوير الذكاء الاصطناعي</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="challenge-card">
+                        <div class="challenge-icon">
+                            <i class="bi bi-shield-exclamation"></i>
+                        </div>
+                        <h4>الأخلاق والخصوصية</h4>
+                        <p>حماية البيانات الشخصية، التحيز في الخوارزميات، وضمان الاستخدام المسؤول</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="challenge-card">
+                        <div class="challenge-icon">
+                            <i class="bi bi-briefcase-x"></i>
+                        </div>
+                        <h4>سوق العمل</h4>
+                        <p>استبدال الوظائف، الحاجة لإعادة التأهيل، وتوزيع الدخل</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="challenge-card">
+                        <div class="challenge-icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h4>التحكم والتنظيم</h4>
+                        <p>وضع قوانين وتشريعات، ضمان السلامة، ومنع الإساءة</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="challenge-card">
+                        <div class="challenge-icon">
+                            <i class="bi bi-question-circle"></i>
+                        </div>
+                        <h4>الذكاء الفائق</h4>
+                        <p>التحكم في الأنظمة المتقدمة، منع الانفجار الذكائي، وضمان التوافق</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>عالم الذكاء الاصطناعي</h5>
+                    <p>استكشف عالم الذكاء الاصطناعي وتطوره</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-3">
+            <div class="text-center">
+                <p>&copy; 2024 عالم الذكاء الاصطناعي. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
